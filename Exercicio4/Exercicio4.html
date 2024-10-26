@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculum</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 95%;
+            margin: auto;
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Nome no centro com cor */
+        #nome {
+            text-align: center;
+            color: darkslateblue;
+        }
+
+        /* Foto no centro */
+        #foto {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Título com fundo azul */
+        .titulo {
+            background-color: #add8e6;
+            padding: 5px;
+            text-align: center;
+        }
+
+        /* Fundo azul claro para e-mail, idade e rede social */
+        .fundo-azul {
+            background-color: #add8e6;
+            text-align: left;
+            padding: 5px;
+            margin: 0;
+        }
+
+        /* Modificar listas para upper-alpha */
+        ol {
+            list-style-type: upper-alpha;
+            padding-left: 20px;
+        }
+
+        /* Estilo para a tag <p> com fonte Verdana */
+        p {
+            font-family: Verdana, sans-serif;
+        }
+
+        /* Estilos das seções com título e efeito de hover */
+        .section-title {
+            background-color: #add8e6;
+            padding: 0px;
+            margin: 0;
+            transition: background-color 1.5s;
+        }
+
+        /* Efeito de hover */
+        .section-title:hover {
+            background-color: #add8e6;
+        }
+
+        /* Estilos para a div Formações Acadêmicas, Complementares e Soft Skills */
+        .minhadiv {
+            border: 2px dashed black;
+            background-color: #d3d3d3;
+            margin: 0;
+            padding: 0px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1 id="nome">Elon Mosca</h1>
+        <div id="foto">
+            <img src="AvatarMaker.png" alt="Profile Picture" width="150">
+        </div>
+    </div>
+
+    <div>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li class="fundo-azul">Rede Social: elon_musk_58953</li>
+            <li class="fundo-azul">Idade: 86 Anos</li>
+            <li class="fundo-azul">Email: elon.mosca@gmail.com</li>
+        </ul>
+    </div>
+
+    <ol>
+        <li class="minhadiv">
+            <h3 class="section-title">Formações Acadêmicas</h3>
+            <div class="section-content">
+                <p>1950 - 1955 | <a href="https://www.ufes.br" target="_blank">Universidade Federal do Espírito Santo (UFES)</a></p>
+                <p>Marketing</p>
+                <p>1960 - 1965 | <a href="https://www.ifes.edu.br" target="_blank">Instituto Federal do Espírito Santo (IFES)</a></p>
+                <p>Gastronomia</p>
+            </div>
+        </li>
+
+        <li class="minhadiv">
+            <h3 class="section-title">Formações Complementares</h3>
+            <div class="section-content">
+                <p>1970 a 1980 | Mandarim</p>
+            </div>
+        </li>
+
+        <li class="minhadiv">
+            <h3 class="section-title">Soft Skills</h3>
+            <div class="section-content">
+                <p><a href="Paciente.html">Paciente</a></p>
+                <p><a href="Comunicativo.html">Comunicativo</a></p>
+            </div>
+        </li>
+    </ol>
+
+</div>
+
+</body>
+</html>
