@@ -1,0 +1,61 @@
+/* Estilo para o body */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para a div principal */
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para header e footer */
+header, footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilo para o título */
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo para o menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0073e6;
+}
+
+/* Estilo para a imagem */
+#imagem-blog {
+    width: 960px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Estilo para os links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+/* Comentário sobre a propriedade text-decoration */
+/* A propriedade text-decoration remove o sublinhado dos links */
