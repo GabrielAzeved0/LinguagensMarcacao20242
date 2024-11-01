@@ -1,0 +1,55 @@
+html{
+
+    margin: 1rem;
+    font-size: 62.5%;
+    /*
+    16px = 100%
+    10px = x
+    
+    x=62.5%
+    */
+}
+
+body {
+    
+    background-color: #B8EBE9;
+}
+
+table {
+
+    border: 0,5rem solid#ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    table-layout: fixed;
+    /*
+    auto -> (não respeita o tamanho definido no width) A largura da coluna é calculada de acordo com o conteudo mais largo e inquebrável.
+    fixed -> (respeita o tamanho definido no width) Se há um tamanho no (width) configurado para a tabela, o algoritmo distribui o tamnho proporcionalmente pelas colunas.
+    se não a width configurado para tabela, o tamanho de cada coluna sera de acordo com a linha mais larga
+    */
+    
+}
+
+table caption{
+    font-size: 2rem;
+    margin: .5rem 0 .75rem
+}
+
+table tr{
+    background-color: #f8f8f8;
+    border: 0.5rem solid#ddd;
+    padding: 0.35rem;
+}
+
+table th, table td {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+table th{
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
