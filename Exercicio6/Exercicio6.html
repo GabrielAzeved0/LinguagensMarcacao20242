@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Exercicio6</title>
+</head>
+
+
+<form>
+    <h1>Cadastrar usuário</h1>
+
+    <!-- Seção 1 -->
+    <fieldset>
+
+        <legend><span class="circle">1</span> Dados pessoais</legend>
+        <label>Nome:</label>
+        <input type="text" name="nome" />
+        <label>Email:</label>
+        <input type="email" name="email" />
+        <label>Senha:</label>
+        <input type="password" name="senha" />
+        <label>Confirmar senha:</label>
+        <input type="password" name="confirmaSenha" />
+
+        <label>Idade:</label>
+        <div class="idade">
+            <label>
+                <input type="radio" name="idade" value="maior17" /> Acima 17
+            </label>
+            <label>
+                <input type="radio" name="idade" value="menor17" /> Abaixo ou igual 17
+            </label>
+        </div>
+
+    </fieldset>
+
+    <!-- Seção 2 -->
+    <fieldset>
+
+        <legend><span class="circle">2</span> Perfil</legend>
+
+        <label>Descrição:</label>
+        <textarea name="descricao"></textarea>
+
+        <label>Perfil trabalho:</label>
+        <select name="perfilTrabalho">
+            <option value="frontend">Front-End Developer</option>
+            <option value="backend">Back-End Developer</option>
+            <option value="fullstack">Full-Stack Developer</option>
+        </select>
+
+        <label>Interesses:</label>
+        <div class="interesses">
+            <label>
+                <input type="checkbox" name="interesses" value="programador" /> Programador
+            </label>
+            <label>
+                <input type="checkbox" name="interesses" value="design" /> Design
+            </label>
+            <label>
+                <input type="checkbox" name="interesses" value="analista" /> Analista
+            </label>
+        </div>
+    </fieldset>
+
+    <button type="submit">Enviar dados</button>
+</form>

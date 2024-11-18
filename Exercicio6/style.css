@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 1rem;
+    font-size: 62.5%; /* Define 1rem como 10px para facilitar cálculos */
+}
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 62.5%;
+    color: #333;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+form {
+    width: 30rem;
+    margin: 0 auto; 
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    background-color: #eef5f4;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs de texto, email e senha */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    border: rgba(0, 0, 0, 0.1);
+    font-size: 1.6rem;
+    margin: 0.5rem 0 2rem;
+    padding: 1.5rem;
+    outline: none;
+    height: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background-color: #e3eaee;
+}
+
+/* Input radio e checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    display: block;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Fieldset e Legend */
+fieldset {
+    border: none;
+    margin-bottom: 2rem;
+}
+
+legend {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+label {
+    font-size: 1.6rem;
+}
+
+.idade label,
+.interesses label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+textarea {
+    resize: vertical;
+    overflow: hidden; 
+    min-height: 5rem; 
+}
+
+/* Select específico já incluído acima */
