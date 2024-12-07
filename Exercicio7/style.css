@@ -1,0 +1,75 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* Container do card */
+.container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+/* Imagem do card */
+.container img {
+    width: 80%;
+    height: 100%;
+    opacity: 0.5;
+    border: 2px solid green;
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Texto no centro do card */
+.centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: black;
+    z-index: 999;
+}
+
+/* Texto do artigo */
+.texto {
+    font-size: 1.4rem; /* Tamanho menor */
+    line-height: 2.4rem; /* Altura das linhas */
+    text-align: justify;
+    margin-bottom: 2rem; /* Espaçamento geral */
+}
+
+.texto p {
+    margin-bottom: 2rem; /* Espaçamento entre parágrafos */
+}
+
+/* Imagem fixa do WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+}
+

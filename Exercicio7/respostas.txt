@@ -1,0 +1,8 @@
+1. O que faz a propriedade z-index?
+A propriedade z-index define a ordem das camadas de exibição dos elementos. Um elemento com um valor de z-index maior 
+será exibido acima de outros elementos com valores de z-index menores.
+
+
+2. Como faria para centralizar a imagem?
+Para centralizar a imagem dentro de um container utilizei flexbox, usando display: flex no container com justify-content: center (para centralizar horizontalmente)
+ e align-items: center (para centralizar verticalmente).
